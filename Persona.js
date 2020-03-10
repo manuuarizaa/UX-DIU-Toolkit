@@ -17,7 +17,7 @@
 
 angular.module("angular", [])
 	.controller("controller", ["$scope", function($scope) { 
-        $scope.Grupo_ID ="DIU1.ABCDEF";
+        $scope.Grupo_ID ="DIU2.A";
         $scope.Curso ="2019/20";
         $scope.Github_ID ="https://github.com/mgea/UX-DIU-Toolkit";
         
@@ -33,36 +33,36 @@ angular.module("angular", [])
                 
                 
 				Id: 0,
-				Name: "Pedro",
-				Photo: "man.png",
-				Quote: "Carpe Diem",
-				Age: 32,
-				Occupation: "Comercial en empresa de automocion",
-				Family: "Con pareja desde hace 1 año",
-				Location: "Granada (Huetor Vega)",
-				Character: "Le gusta disfrutar del tiempo",
+				Name: "Anastasia",
+				Photo: "anastasia.jpg",
+				Quote: "Súbeme la radio que esta es mi canción",
+				Age: 28,
+				Occupation: "Camarera",
+				Family: "Soltera",
+				Location: "Churriana, Granada",
+				Character: "Extrovertida y enérgica",
 				PersonalityTraits: [
 					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 4 },
-					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 1 },
+					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 3 },
 					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 3 },
-					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 5 }
+					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 2 }
 				], 
-				Goals: ["Disfrutar del tiempo libre, viajar", "Cambiar a un trabajo más estable"],
-				Frustrations: ["le gusta la tecnología, pero siempre 'llama a un amigo' para resolver problemas", "Le gustaría tener más tiempo libre y leer más"],
-				Bio: "Es de Modril y vino a Granada para estudiar administración de empresas, pero no ha tenido grandes oportunidades de trabajo. LLeva 2 años contratado en la empresa actual. Aqui ha hecho buenos amigo en el trabajo y normalmente ser reunen para fiestas y a veces organizan viajes",
+				Goals: ["Vivir el momento", "en busca del amor de su vida"],
+				Frustrations: ["Siente que no avanza en la vida", "Le gusta su trabajo pero necesita más dinero para ir a festivales"],
+				Bio: "Anastasia es una chica de 28 años alegre y sociable, con un trabajo de camarera. Estudió el primer año de la carrera de baile, pero no disfrutaba bailando por obligación y con presión de examenes, prefiere bailar a más bajo nivel y divertirse. Le encanta salir con sus amigos, pero también querría una pareja que le proporcionara una estabilidad. Le gustaría crecer profesionalmente, pero no sabe que hacer ni como.",
 				Tech: [
 					{ Name: "TIC/Internet", Value: 2 },
-					{ Name: "Movil", Value: 2 },
-					{ Name: "RRSS", Value: 3 },
+					{ Name: "Movil", Value: 4 },
+					{ Name: "RRSS", Value: 5 },
 					{ Name: "Software", Value: 2 }
 					
 				], 
-                Contextos: "LLeva un tiempo preocupado y quiere desconectar Le gustaría dar una sorpresa a sus amigos para las vacaciones",  
+                Contextos: "LLeva un tiempo pensando estudiar, pero no sabe qué carrera ni como combinarlo con el trabajo",  
 				PreferredChannels: [
-					{ Name: "Publicidad Tradicional", Value: 5 },
-					{ Name: "Online & Social Media", Value: 3 },
+					{ Name: "Publicidad Tradicional", Value: 2 },
+					{ Name: "Online & Social Media", Value: 4 },
 					{ Name: "Recomendaciones & sugerencias", Value: 2 },
-					{ Name: "Persona confianza (amigos, boca a boca)", Value: 1 }
+					{ Name: "Persona confianza (amigos, boca a boca)", Value: 2 }
 				]
 			},
 			{	
@@ -74,34 +74,34 @@ angular.module("angular", [])
                 
                 
 				Id: 1,
-				Name: "Monica Suarez",
-				Photo: "woman.png",
-				Quote: "A quotation that captures the essence of this person's personality",
-				Age: 17,
-				Occupation: "Searching for a cure for the Empress",
-				Family: "No parents, only family are the people who raised him.",
-				Location: "The Grassy Plains of Fantasia",
-				Character: "Strong, reliable and fearless.",
+				Name: "José Pérez",
+				Photo: "jose.jpg",
+				Quote: "Lo que uno hace con el don de la vida es lo que nos dice quienes somos",
+				Age: 18,
+				Occupation: "Estudiante",
+				Family: "Soltero",
+				Location: "Dúrcal, Granada",
+				Character: "Tímido",
 				PersonalityTraits: [
-					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 3 },
-					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 3 },
+					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 1 },
+					{ Name: "Realista/práctico  Vs    Intuición/imaginativo", Value: 2 },
 					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 2 },
-					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 2 }
+					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 2  }
 				], 
-				Goals: ["The goals this user hopes to achieve.", "A task that needs to be completed.", "A life goal to be reached.", "An experience to be felt."],
-				Frustrations: ["The frustrations this user would like to avoid.", "The obstacle that prevents the user from achieving their goals.", "The problems with the solutions already available.", "The product or service which does not currently exist."],
-				Bio: "The bio should be a short paragraph to describe the user journey. It should include some of their history leading up to a current use case. It may be helpful to incorporate information listed across the template and add pertinent details that may have been left out. Highlight factors of the user's personal and professional life that make this user an ideal customer of your product.",
+				Goals: ["Acabar la carrera", "Disfrutar de los videojuegos sin perder tiempo de estudio"],
+				Frustrations: ["Le cuesta socializar con la gente", "Quiere dejar de vivir con sus padres"],
+				Bio: "José es un chico de 18 años que está empezando la carrera de electrónica. Extremadamente tímido, prefiere pasar el tiempo en su habitación jugando a videojuegos y haciendo proyectos con Arduino. De vez en cuando va con sus amigos a salones del Manga. Tuvo una novia  durante 2 años de adolescente, pero lo dejaron debido a que sus personalidades eran muy diferentes. Quiere irse de casa de sus padres para que no le echen en cara que no sale de su cuarto.",
 				Tech: [
 					{ Name: "TIC/Internet", Value: 5 },
-					{ Name: "Mobile", Value: 3 },
-					{ Name: "RRSS", Value: 3 },
+					{ Name: "Mobile", Value: 4 },
+					{ Name: "RRSS", Value: 2 },
 					{ Name: "Software", Value: 5 }
 					
 				], 
-                Contextos:   "The goals this user hopes to achieve." ,
+                Contextos:   "Espera acabar pronto la carrera para encontrar un trabajo pronto que le permita independizarse" ,
 				PreferredChannels: [
-					{ Name: "Publicidad Tradicional (Ads)", Value: 5 },
-					{ Name: "Online & Social Media", Value: 2 },
+					{ Name: "Publicidad Tradicional (Ads)", Value: 3 },
+					{ Name: "Online & Social Media", Value: 5 },
 					{ Name: "Recomendaciones & sugerencias", Value: 2 },
 					{ Name: "Persona confianza (amigos, boca a boca)", Value: 2 }
 				]
