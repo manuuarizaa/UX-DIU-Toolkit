@@ -36,10 +36,10 @@ angular.module("angular", [])
 				Name: "Anastasia",
 				Photo: "anastasia.jpg",
 				Quote: "Súbeme la radio que esta es mi canción",
-				Age: 28,
-				Occupation: "Camarera",
+				Age: 24,
+				Occupation: "Camarera en un restaurante del centro de Granada",
 				Family: "Soltera",
-				Location: "Churriana, Granada",
+				Location: "Granada",
 				Character: "Extrovertida y enérgica",
 				PersonalityTraits: [
 					{ Name: "Introvertido/reservado Vs  Extrov/activo ", Value: 4 },
@@ -47,9 +47,9 @@ angular.module("angular", [])
 					{ Name: "Racional/analitico  Vs   Emocional/impulsivo", Value: 3 },
 					{ Name: "Flemático/apático  Vs   Colérico/visceral", Value: 2 }
 				], 
-				Goals: ["Vivir el momento", "en busca del amor de su vida"],
-				Frustrations: ["Siente que no avanza en la vida", "Le gusta su trabajo pero necesita más dinero para ir a festivales"],
-				Bio: "Anastasia es una chica de 28 años alegre y sociable, con un trabajo de camarera. Estudió el primer año de la carrera de baile, pero no disfrutaba bailando por obligación y con presión de examenes, prefiere bailar a más bajo nivel y divertirse. Le encanta salir con sus amigos, pero también querría una pareja que le proporcionara una estabilidad. Le gustaría crecer profesionalmente, pero no sabe que hacer ni como.",
+				Goals: ["Cambiar de profesión", "Encontrar el amor de su vida"],
+				Frustrations: ["Siente que no avanza en la vida", "El trabajo no le hace sentirse realizada"],
+				Bio: "Anastasia es una chica de 24 años, nacida en Las Gabias, un pueblo de Granada, donde vivió con sus padres hasta los 18 años. Estudió, hasta terminar el bachiller, en Las Gabias, luego se mudó al centro de Granada, donde actualmente reside, para estar algo mas cerca de la facultad donde estudió ADE. Se sacó la carrera en esos 4 años, en los que a la vez trabajaba de camarera en un restaurante muy popular del centro de Granada, ya que tenía que pagarse el piso y no quería darle ese cargo a sus padres. Aún continúa trabajando a pesar de haber acabado la carrera hace 2 años, ya que no encuentra trabajo de lo que estudió y ese trabajo es el que por ahora la mantiene económicamente. Convivió durante los 4 años de carrera con 2 chicas mas, pero acabaron la carrera y se mudaron a otras ciudades, por lo que ahora ella vive sola y se le hace complicado llevar los pagos al día y tener una vida social acorde con su edad. Anastasia es una chica muy sana y desde los 16 años es aficionada a salir a correr todos los días, hace 1 año que se apuntó a un grupo donde salen a correr todos juntos, eso sí, los domingos al mediodia, después de correr unas horas, se va con el grupo de tapas y cañas",
 				Tech: [
 					{ Name: "TIC/Internet", Value: 2 },
 					{ Name: "Movil", Value: 4 },
@@ -57,7 +57,7 @@ angular.module("angular", [])
 					{ Name: "Software", Value: 2 }
 					
 				], 
-                Contextos: "LLeva un tiempo pensando estudiar, pero no sabe qué carrera ni como combinarlo con el trabajo",  
+                Contextos: "Vive sola, con un sueldo medio, lo que le permite ahorrar muy poco dinero",  
 				PreferredChannels: [
 					{ Name: "Publicidad Tradicional", Value: 2 },
 					{ Name: "Online & Social Media", Value: 4 },
