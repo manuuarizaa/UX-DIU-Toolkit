@@ -19,7 +19,7 @@
 
 angular.module("angular", [])
 	.controller("controller", ["$scope", function($scope) { 
-		$scope.Grupo_ID ="DIU2.A";
+		$scope.Grupo_ID ="DIU2.A Título: Compañeros Reguleros ";
         $scope.Curso ="2019/20";
         $scope.Github_ID ="https://github.com/mgea/UX-DIU-Toolkit";
         
@@ -38,17 +38,17 @@ angular.module("angular", [])
                 Photo: "anastasia.jpg",
     
                 /*** PASO #1: INSPIRACION ***/ 
-                goal1: "Quiere preparar un viaje a un festival de música con sus amigos",
-                touch1: "Movil(Whatsapp)",
+                goal1: "Quiere preparar un viaje a un festival de música ella sola",
+                touch1: "Anuncio en una web",
                 feel1: "5",
                 con1: "Encontrar lugar donde alojarse",
                 ima1: "cartoon-planning.png",
 				
                 /*** PASO #2: DECICION ***/ 
-                goal2: "Busca alojamientos en internet",
+                goal2: "Busca hoteles cercanos",
                 touch2: "Portatil",
                 feel2: "2",
-                con2: "Cuesta encontrar sitio porque está todo a tope",
+                con2: "Es demasiado caro",
                 ima2: "cartoon-writting2.png",
                 
                 /*** PASO #3: ACTUA ***/ 
@@ -71,18 +71,18 @@ angular.module("angular", [])
                 
                	goal5: "Encuentra una habitación cerca del festival",
                 touch5: "Portatil",
-                feel5: "4",
-                con5: "Le preocupa la calidad del sitio",
+                feel5: "3",
+                con5: "Le preocupa como serán el resto de compañeros, ya que la web no lo especificaba",
                 ima5: "cartoon-PChappy.png",
                 
                 
                 /*** PASO #6: CONCLUSION ***/ 
                 
-                goal6: "¡Llega a la habitación y le encanta!",
+                goal6: "Llega a la habitación y los compañeros son muy irrespetuosos",
                 touch6: "Realidad",
-                feel6: "5",
-                con6: "Terminaron pisando poco la habitación, así que podía haber buscado una algo más barata",
-                ima6: "cartoon-resting.png",
+                feel6: "2",
+                con6: "Aunque estuvo poco tiempo en la habitación, sus compañeros eran muy ruidosos e irrespetuosos, y le fastidiaron bastante la experiencia",
+                ima6: "cartoon-awaking.png",
                 
 			},
 			{	
@@ -96,51 +96,51 @@ angular.module("angular", [])
                 Photo: "jose.jpg",
                 
 				 /*** PASO #1: INSPIRACION ***/ 
-                goal1: "Quiere preparar un viaje con sus amigos a la feria de videojuegos E3, en Los Ángeles",
-                touch1: "Movil(Telegram)",
-                feel1: "5",
-                con1: "Va a ser carísimo y habrá poco alojamiento disponible",
-                ima1: "cartoon-going.png",
+                goal1: "Su amigo Paco ha vendido su piso y ha sacado un dinerillo, y le ha dado la idea",
+                touch1: "Realidad",
+                feel1: "3",
+                con1: "No le gusta la idea de dehacerse por completo del piso",
+                ima1: "cartoon-talking.png",
                 
                 /*** PASO #2: DECICION ***/ 
-                goal2: "Hay que ponerse de acuerdo sobre los detalles",
-                touch2: "Movil(Telegram)",
+                goal2: "Decide alquilar uno de sus pisos porque no le da mucho uso",
+                touch2: "Sobremesa",
                 feel2: "4",
-                con2: "Cada persona quiere una cosa",
-                ima2: "cartoon-teamthinking.png",
+                con2: "Le preocupa lo bien que lo vayan a tratar",
+                ima2: "cartoon-thinking.png",
                 
                 /*** PASO #3: ACTUA ***/ 
                 
-                goal3: "Busca sitio, pero hay demasiadas opciones y se angustia",
+                goal3: "Busca sitio donde vender",
                 touch3: "Sobremesa",
                 feel3: "2",
-                con3: "No sabe qué hacer",
+                con3: "Hay demasiadas opciones",
                 ima3: "cartoon-deciding.png",
                 
                 /*** PASO #4: OBSERVA ***/ 
                 
-                goal4: "Busca una habitación moderadamente económica",
+                goal4: "Encuentra una página con la interfaz muy clara y le gusta",
                 touch4: "Sobremesa",
                 feel4: "4",
-                con4: "Está algo lejos del evento",
-                ima4: "cartoon-phone-street.png",
+                con4: "Parece que no la usa mucha gente en Granada y no le da buena espina",
+                ima4: "cartoon-PChappy.png",
                 
                  /*** PASO #5: ANALIZA ***/ 
                 
-                goal5: "Reserva a traves de la web",
+                goal5: "Entra a la sección para colgar su piso y le piden demasiados datos",
                 touch5: "Sobremesa",
-                feel5: "4",
-                con5: "Le da miedo llegar y encontrarse con algo que no le guste",
-                ima5: "cartoon-phone-sitting.png",
+                feel5: "2",
+                con5: "No da abasto a rellenar tanta información, por lo que termina abrumado",
+                ima5: "cartoon-PCangry.png",
 
                 
                 /*** PASO #6: CONCLUSION ***/ 
                 
-                goal6: "Llega a la habitación con sus amigos y al final resulta que no estaba tan mal conectada",
-                touch6: "Realidad",
-                feel6: "5",
-                con6: "Las camas resultaron ser algo incómodas",
-                ima6: "cartoon-happy.png",
+                goal6: "Termina quemándose y decide no alquilar el piso",
+                touch6: "Sobremesa",
+                feel6: "2",
+                con6: "Ha perdido un posible negocio",
+                ima6: "cartoon-PCcrying.png",
                 
                 
                 
